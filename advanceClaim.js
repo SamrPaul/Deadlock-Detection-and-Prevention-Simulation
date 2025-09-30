@@ -13,7 +13,7 @@ function reset(){
   document.getElementById('resourceA').value = '';
   document.getElementById('resourceB').value = '';
   document.getElementById('resourceC').value = '';
-  document.body.style.backgroundColor = "#ffffff";
+  document.body.style.backgroundColor = "#ffffff" ;
 }
 
 function example(){
@@ -106,4 +106,5 @@ function run_algo(){
     document.body.style.backgroundColor = "#28df99";
     alert("Safe!!");
   }
+
 }
